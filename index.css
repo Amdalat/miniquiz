@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+body{
+    background-color: rgba(128, 0, 128, 0.747);
+}
+
+h1{
+    padding-top: 100px;
+    color: wheat;
+    text-align: center;
+}
+.line{
+    height: 5px;
+    width: 80px;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+}
+.quiz{
+    width: 20vw;
+    margin: auto;
+    padding: 20px 5%;
+    align-items: center;
+}
+.quiz p{
+    margin-left: -20px;
+}
+.rans{
+    padding-left: 30px;
+    font-size: 20px;
+    display: none;
+}
+input[type="radio"] {
+    height: 15px;
+    width: 15px;
+    margin-right: 0.3rem;
+    color: red;
+}
+
+label{
+    padding-left: 10px;
+    font-size: 25px;
+}
+label:hover{
+    transition: 0.2s ease-in;
+    font-size: 30px;
+}
+
+button{
+    background-color: grey;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 10px 30px;
+}
